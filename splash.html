@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        /* Corrección única de estilos */
+        body {
+            background-color: #FFF1F6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;   /* Permite hacer scroll si el texto es largo */
+            margin: 0;
+            padding: 20px;       /* Evita que el título toque los bordes */
+            box-sizing: border-box;
+            text-align: center;
+            flex-direction: column;
+        }
+        .splash-container {
+            max-width: 700px;
+            width: 100%;
+            padding: 10px;
+        }
+        .splash-container h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4em;
+            color: #044803;
+            margin-top: 0;
+            margin-bottom: 0.5em;
+            line-height: 1.2;
+        }
+        .splash-container p {
+            margin-bottom: 1.5em;
+            color: #666;
+            font-size: 1.2em;
+        }
+        .button {
+            margin-top: 1em;
+            background-color: #8ebebc !important;
+            color: #fff !important;
+            text-decoration: none;
+            padding: 0.75em 2.5em;
+            border-radius: 0.35em;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #9ececc !important;
+        }
+
+        /* Corrección para teléfonos (pantallas de menos de 736px) */
+        @media screen and (max-width: 736px) {
+            .splash-container h1 {
+                font-size: 2.5em; /* Título más chico para que quepa */
+            }
+            .splash-container p {
+                font-size: 1em;   /* Texto más chico para que no se corte */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="splash-container">
+        <h1>Welcome to My Virtual Portfolio!</h1>
+        <p>
+            My name is Madisson Montoya, and I created this portfolio to share my writing progress throughout this academic term. 
+            It reflects the skills I have developed and the effort I have put into improving my writing in English.
+        </p>
+        <p>
+            Inside this portfolio, you will find three essays: a narrative essay, a persuasive essay, and an opinion essay. 
+            Each one represents a different writing style and demonstrates what I have learned during the course. 
+            I hope you enjoy reading my work as much as I enjoyed creating this portfolio. Thank you for taking the time to explore it!
+        </p>
+        <a href="index.html" class="button">Portfolio</a>
+    </div>
+
+</body>
+</html>
